@@ -1,0 +1,8 @@
+function getSum(a, b)
+{
+  const max = Math.max(a,b)
+  const min = Math.min(a,b)
+  
+  const distance = (max - min + 1)
+  return distance * (a+b)/2;
+}
